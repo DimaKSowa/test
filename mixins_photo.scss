@@ -1,0 +1,10 @@
+@mixin position($position-position, $position-width, $position-height, $position-left, $position-top, $position-border, $position-mixblend, $position-back){
+    position: $position-position;
+    width: $position-width;
+    height: $position-height;
+    left: $position-left;
+    top: $position-top;
+    mix-blend-mode: $position-mixblend;
+    border-radius: $position-border;
+    background-image: $position-back;
+}
