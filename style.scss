@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(./images/holidays.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .main-div_head{
@@ -52,20 +53,56 @@
     line-height: 17px;
     align-items: flex-end;
     color: #FFFFFF;
-    top: 50px;
+    
 }
 
 .main-div_head_log{
-    color: white;
-    font-size: 17px;
-    display: inline;
-    font-family:'Montserrat', sans-serif;
+    position: absolute;
+    width: 44px;
+    height: 17px;
+    // left: 996px;
+    top: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .main-div_head_sign{
-    @extend .main-div_head_log;
-    border: 2px solid white;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    // left: 1059px;
+    top: 40px;
+
+    border: 2px solid #FFFFFF;
     border-radius: 40px;
+ 
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    background: none;
+    cursor: pointer;
 }
 
 .main-div_text{
@@ -83,34 +120,64 @@
 }
 
 .main-div_text_1{
+    position: absolute;
+    width: 470px;
+    height: 126px;
+    left: 485px;
+    top: 223.5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
     font-size: 52px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    line-height: 63px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 .main-div_text_2{
-    color: white;
-    font-size: 24px;
-    margin-top: 20px;
-    font-family:'Roboto', sans-serif;
+    position: absolute;
+    width: 396px;
+    height: 25px;
+    left: 522px;
+    top: 378px;
+
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 102% */
 
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #F7F3F2;
 }
 
 .main-div_text_button{
-    @extend .main-div_text_2;
-    background-color: #FF4E50;
-    max-width: 225px;
-    max-height: 40px;
-    margin: 0 auto;
-    margin-top: 15px;
-    border: 1px solid #FF4E50;
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 40px;
+    width: 225px;
+    left: 608px;
+    top: 436px;
     border-radius: 40px;
+
+
+    background: #FF4E50;
+    border-radius: 40px;
+    border-color: #FF4E50;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 
@@ -429,6 +496,14 @@
     background: #FFFFFF;
     border: 2px solid #FF4E50;
     border-radius: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+    cursor: pointer;
 }
 
 
@@ -505,3 +580,196 @@
     left: 478px;
     top: 2937px;
 }
+
+.typein_logo{
+    position: absolute;
+    width: 358px;
+    height: 32px;
+    left: 62.5px;
+    top: -6px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #444444;
+
+}
+
+.typein_text{
+    position: absolute;
+    width: 415px;
+    height: 24px;
+    left: 35px;
+    top: 69px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    /* or 78% */
+
+    // display: flex;
+    // align-items: flex-end;
+    text-align: center;
+
+    color: #666666;
+}
+
+.typein_input{
+    position: absolute;
+    width: 299px;
+    height: 40px;
+    left: 0px;
+    top: 118px;
+
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 14px;
+}
+
+.typein_search_back{
+    position: absolute;
+    width: 172.12px;
+    height: 40px;
+    left: 309px;
+    top: 118px;
+
+    background: #FF4E50;
+    border-color: #FF4E50;
+    border-radius: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 224px;
+    left: calc(50% - 1440px/2);
+    bottom: 36px;
+    top: 3191px;
+}
+
+hr{
+    position: absolute;
+    width: 1440px;
+    height: 3px;
+    left: 0px;
+    top: 0px;
+
+    background: #FF4E50;
+}
+
+.footer_logo{
+    position: absolute;
+    width: 119px;
+    height: 20px;
+    left: 249px;
+    top: 38px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FF4E50;
+}
+
+.footer_company{
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 490px;
+    top: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #444444;
+}
+
+.footer-li{
+    position: absolute;
+    width: 114px;
+    height: 156px;
+    left: 490px;
+    top: 68px;
+    list-style-type: none;
+}
+
+.footer-li_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.footer_partners{
+    @extend .footer_company;
+    width: 64px;
+    left: 729px;
+}
+
+.footer_design{
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    left: 1110px;
+    top: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+
+    color: #CCCCCC;
+}
+
+.footer_img{
+    position: absolute;
+    width: 110px;
+    height: 24px;
+    left: 1080px;
+    top: 59px;
+}
+
+// cursor: pointer;
