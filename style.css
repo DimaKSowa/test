@@ -368,23 +368,6 @@
   height: 57px;
 }
 
-.partner_button {
-  position: absolute;
-  width: 137px;
-  height: 17px;
-  left: 405px;
-  top: 333px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  /* identical to box height */
-  display: flex;
-  align-items: flex-end;
-  color: #FF4E50;
-}
-
 .partner_button_border {
   position: absolute;
   width: 180px;
@@ -440,6 +423,8 @@
   mix-blend-mode: 4px;
   border-radius: normal;
   background-image: url("./images/line_1_1.png");
+  display: block;
+  margin: 0 auto;
 }
 
 .photos_line_1_2 {
@@ -451,6 +436,8 @@
   mix-blend-mode: 4px;
   border-radius: normal;
   background-image: url("./images/line_1_2.png");
+  display: block;
+  margin: 0 auto;
 }
 
 .photos_line_1_3 {
@@ -462,6 +449,8 @@
   mix-blend-mode: 4px;
   border-radius: normal;
   background-image: url("./images/line_1_3.png");
+  display: block;
+  margin: 0 auto;
 }
 
 .photos_line_2_1 {
@@ -473,6 +462,8 @@
   mix-blend-mode: 4px;
   border-radius: normal;
   background-image: url("./images/line_2_1.png");
+  display: block;
+  margin: 0 auto;
 }
 
 .photos_line_2_2 {
@@ -484,6 +475,8 @@
   mix-blend-mode: 4px;
   border-radius: normal;
   background-image: url("./images/line_2_2.png");
+  display: block;
+  margin: 0 auto;
 }
 
 .photos_line_3_1 {
@@ -495,6 +488,8 @@
   mix-blend-mode: 4px;
   border-radius: normal;
   background-image: url("./images/line_3_1.png");
+  display: block;
+  margin: 0 auto;
 }
 
 .photos_line_3_2 {
@@ -506,6 +501,8 @@
   mix-blend-mode: 4px;
   border-radius: normal;
   background-image: url("./images/line_3_2.png");
+  display: block;
+  margin: 0 auto;
 }
 
 .typein {

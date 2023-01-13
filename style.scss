@@ -466,25 +466,25 @@
     height: 57px;
 }
 
-.partner_button{
-    position: absolute;
-    width: 137px;
-    height: 17px;
-    left: 405px;
-    top: 333px;
+// .partner_button{
+//     position: absolute;
+//     width: 137px;
+//     height: 17px;
+//     left: 405px;
+//     top: 333px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
+//     font-family: 'Montserrat';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 17px;
+//     /* identical to box height */
 
-    display: flex;
-    align-items: flex-end;
+//     display: flex;
+//     align-items: flex-end;
 
-    color: #FF4E50;
-}
+//     color: #FF4E50;
+// }
 
 .partner_button_border{
     position: absolute;
@@ -545,30 +545,44 @@
 
 .photos_line_1_1{
     @include position(absolute, 300px, 310px, 0px, 61px, normal, 4px, url("./images/line_1_1.png"));
+    display: block;
+    margin: 0 auto;
 }
 
 .photos_line_1_2{
     @include position(absolute, 300px, 310px, 320px, 61px, normal, 4px, url("./images/line_1_2.png"));
+    display: block;
+    margin: 0 auto;
 }
 
 .photos_line_1_3{
     @include position(absolute, 300px, 310px, 640px, 61px, normal, 4px, url("./images/line_1_3.png"));
+    display: block;
+    margin: 0 auto;
 }
 
 .photos_line_2_1{
     @include position(absolute, 300px, 310px, 0px, 391px, normal, 4px, url("./images/line_2_1.png"));
+    display: block;
+    margin: 0 auto;
 }
 
 .photos_line_2_2{
     @include position(absolute, 620px, 310px, 320px, 391px, normal, 4px, url("./images/line_2_2.png"));
+    display: block;
+    margin: 0 auto;
 }
 
 .photos_line_3_1{
     @include position(absolute, 620px, 310px, 0px, 721px, normal, 4px, url("./images/line_3_1.png"));
+    display: block;
+    margin: 0 auto;
 }
 
 .photos_line_3_2{
     @include position(absolute, 300px, 310px, 640px, 721px, normal, 4px, url("./images/line_3_2.png"));
+    display: block;
+    margin: 0 auto;
 }
 
 

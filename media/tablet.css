@@ -1,0 +1,363 @@
+@media (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main-div{
+        width: 768px;
+        height: 700px;
+        left: calc(50% - 768px/2);
+    }
+    .main-div_head{
+        width: 768px;
+        padding-left: 48px;
+        padding-right: 50px;
+    }
+    .main-div_head_name{
+        left: 48px; 
+    }
+    .main-div_head_acc{
+        right: 40px;
+    }
+    .main-div_text{
+        position: absolute;
+        width: 600px;
+        height: 126px;
+        left: 84px;
+        top: 149px;
+    }
+    .main-div_text_1{
+        position: absolute;
+        width: 470px;
+        height: 126px;
+        left: 149px;
+        top: 223.5px;
+    }
+    .main-div_text_2{
+        position: absolute;
+        width: 396px;
+        height: 25px;
+        left: 186px;
+        top: 378px;
+    }
+    .main-div_text_button{
+        position: absolute;
+        width: 225px;
+        height: 40px;
+        left: 272px;
+        top: 436px;
+    }
+
+
+
+    .cards{
+        position: absolute;
+        width: 748px;
+        height: 461px;
+        left: calc(50% - 748px/2 - 9px);
+        top: 795px;
+    }
+    .cards_name{
+        position: absolute;
+        width: 289px;
+        height: 27px;
+        left: 230px;
+        top: -1px;
+        font-size: 22px;
+    }
+    .cards_steps{
+        width: 748px;
+        left: calc(50% - 748px/2);
+    }
+    .cards-steps_1{
+        position: absolute;
+        width: 236px;
+        height: 400px;
+        padding-left: 20px;
+    }
+    .cards-steps_1_number{
+        position: absolute;
+        width: 70px;
+        height: 20px;
+        left: 20px;
+        top: 205px;
+    }
+    .cards-steps_1_name{
+        position: absolute;
+        width: 196px;
+        height: 58px;
+        left: 20px;
+        top: 240px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .cards-steps_1_text{
+        position: absolute;
+        width: 196px;
+        height: 76px;
+        left: 20px;
+        top: 308px;
+    }
+    .cards-steps_2{
+        position: absolute;
+        width: 236px;
+        height: 400px;
+        left: 256px;
+        top: 61px;
+        padding-left: 20px;
+    }
+    .cards-steps_2_number{
+        position: absolute;
+        width: 70px;
+        height: 20px;
+        left: 20px;
+        top: 255px;
+    }
+    .cards-steps_2_name{
+        position: absolute;
+        width: 196px;
+        height: 29px;
+        left: 20px;
+        top: 289px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .cards-steps_2_text{
+        position: absolute;
+        width: 196px;
+        height: 57px;
+        left: 20px;
+        top: 327px;
+    }
+    .cards-steps_3{
+        position: absolute;
+        width: 236px;
+        height: 400px;
+        left: 512px;
+        top: 61px;
+        padding-left: 20px;
+    }
+    .cards-steps_3_number{
+        position: absolute;
+        width: 70px;
+        height: 20px;
+        left: 20px;
+        top: 205px;
+    }
+    .cards-steps_3_name{
+        position: absolute;
+        height: 58px;
+        width: 196px;
+        left: 20px;
+        top: 240px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .cards-steps_3_text{
+        position: absolute;
+        width: 196px;
+        height: 76px;
+        left: 20px;
+        top: 308px;
+    }
+
+
+    .partner{
+        position: absolute;
+        width: 492px;
+        height: 605px;
+        left: calc(50% - 492px/2);
+        top: 1351px;
+    }
+    .partner_logo{
+        position: absolute;
+        width: 416px;
+        height: 27px;
+        left: 38px;
+        top: -1px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .partner-person_1{
+        position: absolute;
+        width: 236px;
+        height: 205px;
+        left: 0px;
+        top: 61px;
+    }
+    .partner-person_2{
+        position: absolute;
+        width: 236px;
+        height: 205px;
+        left: 0px;
+        top: 320px;
+    }
+    .partner-person_3{
+        position: absolute;
+        width: 236px;
+        top: 61px;
+        height: 224px;
+        left: 256px;
+    }
+    .partner-person_4{
+        position: absolute;
+        width: 236px;
+        height: 205px;
+        left: 256px;
+        top: 320px;
+    }
+    .partner_button_border{
+        position: absolute;
+        width: 180px;
+        height: 40px;
+        left: 156px;
+        top: 565px;
+
+    }
+
+
+
+    .photos{
+        position: absolute;
+        width: 748px;
+        height: 1031px;
+        left: calc(50% - 748px/2);
+        bottom: 597px;
+        top: 2051px;
+    }
+    .photos_logo{
+        position: absolute;
+        width: 350px;
+        height: 27px;
+        left: 199px;
+        top: -1px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .photos_line_1_1{
+        position: absolute;
+        width: 236px;
+        height: 310px;
+        left: 0px;
+        top: 61px;
+        
+        background-image: url("../images/line_1_1_tabl.png");
+    }
+    .photos_line_1_2{
+        position: absolute;
+        width: 236px;
+        height: 310px;
+        left: 256px;
+        top: 61px;
+        background-image: url("../images/line_1_2_tabl.png");
+      
+    }
+    .photos_line_1_3{
+        position: absolute;
+        width: 236px;
+        height: 310px;
+        left: 512px;
+        top: 61px;
+        background-image: url("../images/line_1_3_tabl.png");
+    }
+    .photos_line_2_1{
+        position: absolute;
+        width: 236px;
+        height: 310px;
+        left: 0px;
+        top: 391px;
+        background-image: url("../images/line_2_1_tabl.png");
+    }
+    .photos_line_2_2{
+        position: absolute;
+        width: 492px;
+        height: 310px;
+        left: 256px;
+        top: 391px;
+        background-image: url("../images/line_2_2_tabl.png");
+    }
+    .photos_line_3_1{
+        position: absolute;
+        width: 492px;
+        height: 310px;
+        left: 0px;
+        top: 721px;
+        background-image: url("../images/line_3_1_tabl.png");
+    }
+    .photos_line_3_2{
+        width: 236px;
+        height: 310px;
+        left: 512px;
+        top: 721px;
+        background-image: url("../images/line_3_2_tabl.png");
+    }
+
+
+    .typein{
+        position: absolute;
+        width: 482px;
+        height: 158px;
+        left: calc(50% - 482px/2);
+        bottom: 344px;
+        top: 3177px;        
+    }
+
+
+
+    footer{
+        position: absolute;
+        width: 768px;
+        height: 224px;
+        left: calc(50% - 768px/2);
+        bottom: 20px;
+        top: 3435px;
+    }
+    hr{
+        width: 768px;
+    }
+    .footer_logo{
+        position: absolute;
+        width: 119px;
+        height: 20px;
+        left: 39px;
+        top: 38px;
+    }
+    .footer_company{
+        position: absolute;
+        width: 70px;
+        height: 17px;
+        left: 266px;
+        top: 40px;
+    }
+    .footer_li{
+        position: absolute;
+        width: 114px;
+        height: 156px;
+        left: 266px;
+        top: 68px;
+    }
+    .footer_partners{
+        position: absolute;
+        width: 64px;
+        height: 17px;
+        left: 436px;
+        top: 40px;
+    }
+    .footer_design{
+        position: absolute;
+        width: 83px;
+        height: 12px;
+        right: 37px;
+        bottom: 192px;
+        left: 648px;
+    }
+    .footer_img{
+        position: absolute;
+        width: 110px;
+        height: 24px;
+        right: 40px;
+        bottom: 161px;
+        left: 618px;
+    }
+}
