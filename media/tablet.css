@@ -330,7 +330,7 @@
         left: 266px;
         top: 40px;
     }
-    .footer_li{
+    .footer-li{
         position: absolute;
         width: 114px;
         height: 156px;
@@ -359,5 +359,8 @@
         right: 40px;
         bottom: 161px;
         left: 618px;
+    }
+    .footer-li_hide{
+        display: none;
     }
 }

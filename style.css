@@ -683,4 +683,8 @@ hr {
   top: 59px;
 }
 
+.footer-li_hide {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
